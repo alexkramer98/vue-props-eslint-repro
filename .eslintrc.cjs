@@ -10,7 +10,8 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 'latest',
-    project: './tsconfig.json'
+    project: './tsconfig.json',
+    parser: '@typescript-eslint/parser'
   },
   "rules": {
     "@typescript-eslint/strict-boolean-expressions": ["error"],
